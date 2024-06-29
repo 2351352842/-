@@ -334,7 +334,6 @@ public class AssetManagerEditor
     /// </summary>
     public static void BuildAssetBundleFromDirectedGraph()
     {
-        AssetManagerConfig.CurrentBuildVersion++;
         CheckOutputPath();
 
         List<AssetBundleNode> allNodes = new List<AssetBundleNode>();
@@ -496,6 +495,8 @@ public class AssetManagerEditor
         CopyAssetBundleToVersionFolder();
 
         //CreateBuildInfo();
+        AssetManagerConfig.CurrentBuildVersion++;
+
 
         AssetDatabase.Refresh();
     }
