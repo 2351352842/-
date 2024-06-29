@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 272737540
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 937269dde1f7cba6a4deb50f50bcf05e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4db82f4e618e4630b2fa8228e9c6d8d1
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Prefabs/Cube.prefab
+Dependencies:
+- "D:/\u684C\u9762\u6587\u4EF6\u5939\u6574\u7406/Unity/AssetBundel/Assets/StreamingAssets/Local/2b77864af0109a7f3674f4751264965f"
